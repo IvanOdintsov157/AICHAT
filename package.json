@@ -1,0 +1,35 @@
+{
+  "name": "aichat-mobile",
+  "version": "1.0.0",
+  "description": "AI Chat mobile application with Qwen streaming, ElevenLabs API and 3D animations",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "expo-status-bar": "~1.12.1",
+    "expo-constants": "~16.0.0",
+    "react-native-webview": "13.6.3",
+    "react-native-web": "~0.19.10",
+    "@expo/metro-runtime": "~3.2.1",
+    "react-native-sound": "^0.11.2",
+    "react-native-tts": "^4.1.0",
+    "axios": "^1.6.0",
+    "event-source-polyfill": "^1.0.31",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-gesture-handler": "~2.16.2",
+    "expo-3d-model-view": "~0.0.2",
+    "three": "^0.160.0",
+    "expo-gl": "~14.0.2",
+    "expo-three": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
